@@ -8,6 +8,7 @@ variable "compartment_hierarchy" {
   type        = map(any)
 }
 
+
 variable "policies" {
   description = "Map of groups to list of access rules"
   type = map(list(object({

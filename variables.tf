@@ -8,6 +8,7 @@ variable "user_ocid" {
   type        = string
 }
 
+
 variable "fingerprint" {
   description = "API key fingerprint"
   type        = string
