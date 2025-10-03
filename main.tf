@@ -51,3 +51,4 @@ resource "oci_identity_policy" "iamadmins" {
   depends_on = [oci_identity_compartment.shared_services]
   
 }
+

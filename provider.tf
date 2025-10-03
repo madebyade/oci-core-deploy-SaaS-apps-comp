@@ -17,3 +17,4 @@ provider "oci" {
   region           = var.region
   # private_key_password = var.private_key_password # if required
 }
+

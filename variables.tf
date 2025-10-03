@@ -50,3 +50,4 @@ variable "region" {
 #  description = "OCID of the Vault secret storing your private key (base64-encoded)"
 #  type        = string
 #}
+

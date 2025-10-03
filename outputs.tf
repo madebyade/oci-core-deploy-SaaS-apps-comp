@@ -17,3 +17,4 @@ output "iamadmin_policy_id" {
   description = "OCID of the IAMAdmins policy"
   value       = oci_identity_policy.iamadmins.id
 }
+
