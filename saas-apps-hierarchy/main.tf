@@ -5,7 +5,6 @@ resource "oci_identity_compartment" "root_comps" {
     cname => cdef
   }
 
-
   name           = each.key
   description    = lookup(each.value, "description", each.key)
   compartment_id = var.tenancy_ocid

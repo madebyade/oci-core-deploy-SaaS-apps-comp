@@ -7,7 +7,6 @@ output "compartment_ids" {
   )
 }
 
-
 output "policy_ids" {
   description = "Map of policy names to OCIDs"
   value       = { for k, v in oci_identity_policy.policies : k => v.id }

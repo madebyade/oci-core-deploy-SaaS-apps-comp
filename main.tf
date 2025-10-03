@@ -3,7 +3,6 @@ module "saas_apps" {
 
   tenancy_ocid = var.tenancy_ocid
 
-
   compartment_hierarchy = {
     "SaaS_Root_Compartment" = {
       description = "Top-level SaaS apps"
